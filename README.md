@@ -1,6 +1,8 @@
 
 # AWS EKS & MSK demo infrastructure
 
+[![Run on Repl.it](https://repl.it/badge/github/iferca/eks_kafka)](https://repl.it/github/iferca/eks_kafka)
+
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 This project is set up like a standard Python project.  The initialization
