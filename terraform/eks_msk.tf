@@ -8,15 +8,9 @@ variable "eks_cluster_name" {
 }
 
 variable "default_vpc_id" {
-  default = "vpc-0b5b766ade3eca835"
-  type = string
 }
 
 variable "default_subnet_ids" {
-  default = [
-    "subnet-0b68bd1812f235997",
-    "subnet-0d523e6f120592010"]
-  type = list(string)
 }
 
 resource "aws_iam_role" "eks-msk-poc-cluster-role" {
