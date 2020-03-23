@@ -1,4 +1,4 @@
-.env
+cdk/venv
 .idea
 cdk.out
 cdk.context.json
